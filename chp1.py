@@ -72,3 +72,8 @@ print(year)
 print("---------------")
 
 #if git we have a repository locally on two different machines, and the local repository is behind the most up-to-date version of the online repository, I need to run "git pull" to update the local repository.
+
+r = 7
+pi = 3.14
+circlearea = (pi)*(r)**2
+print(circlearea)
