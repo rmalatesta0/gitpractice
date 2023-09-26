@@ -1,5 +1,6 @@
 import turtle
 
+turtle.bgcolor("lavender")
 turtleA = turtle.Turtle()
 turtleB = turtle.Turtle()
 
