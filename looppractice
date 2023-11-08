@@ -1,0 +1,10 @@
+def main():
+    cities()
+
+def cities():
+    cities = ["Madrid", "Tucson", "Moscow", "Wellington", "Gary", "Utqaigvik"]
+    for index in range(len(cities)):
+        print(cities[index])
+
+if __name__ == '__main__':
+    main()

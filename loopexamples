@@ -1,0 +1,21 @@
+def main():
+    loop2()
+
+def loop1():#3 PARTS TO A WHILE LOOP
+    x = 0 # <-- INITIALIZATION OF TRACKING VARIABLE
+    while(x < 7): # <-- TESTING THS CONDITION
+        print(x)
+        x += 1 # <-- INCREMENTATION OF THE VARIABLE
+    
+def loop2():#FOR LOOP
+    list0 = ["Chocolate", "Vanilla", "Strawberry", "MooseTracks", "Cookie Dough", "Creamsicle", "Hot Fudge Sundae", "Mango Sherbert"]
+    for index in range(len(list0)):
+        print(list0[index])
+
+def loop3():#FOR LOOP w/ lists
+    list0 = ["Chocolate", "Vanilla", "Strawberry", "MooseTracks", "Cookie Dough"]
+    for iceCream in list0:
+        print(iceCream)
+
+if __name__ == "__main__":
+    main()
